@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>ZOO sound</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/material.indigo-pink.min.css">
+
+        <link rel="stylesheet" href="css/icon.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+      <div id="loginBox">
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">Welcome</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Insert a username so everyone knows who joins the "share a song" prototype.
+          </div>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type="text" id="sample1" />
+            <label class="mdl-textfield__label" for="sample1">Dein Name</label>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="letsgo">
+              Let's go
+            </a>
+          </div>
+        </div>
+      </div>
+
+        <div id="infobox">
+          <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+              <h2 class="mdl-card__title-text">Audio-Sync</h2>
+            </div>
+            <div id="status" class="mdl-card__supporting-text"> Status: Loading... </div>
+            <div id="connectedusers" class="mdl-card__supporting-text"> Users connected: 0 </div>
+            <div id="ownname" class="mdl-card__supporting-text"> My name is NOT SET </div>
+            <div id="playpausepage" class="mdl-card__supporting-text">
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="playbutton">
+                Play
+              </button>
+
+            </div>
+            <div id="log"><b>Log:</b><br></div>
+          </div>
+        </div>
+
+        <script type="text/javascript" src="js/material.min.js"></script>
+		    <script type="text/javascript" src="js/libs/jquery.min.js"></script>
+        <script type="text/javascript" src="js/libs/socket.io-1.3.7.js"></script>
+        <script type="text/javascript" src="js/libs/soundjs-0.6.1.min.js"></script>
+        <script type="text/javascript" src="js/libs/ntp.js"></script>
+        <script type="text/javascript" src="js/libs/ServerDate.js"></script>
+        <script type="text/javascript" src="js/buffer-loader.js"></script>
+        <script type="text/javascript" src="js/sound.js"></script>
+        <script type="text/javascript" src="js/socket.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    </body>
+
+</html>

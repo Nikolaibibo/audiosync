@@ -1,0 +1,54 @@
+html {
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, input {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color:#90caf9;
+}
+
+.demo-card-wide.mdl-card {
+  width: 98%;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 126px;
+  background: url('../img/welcome_card_coke.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-textfield__input {
+  margin-left: 15px;
+}
+
+.mdl-textfield__label {
+  margin-left: 15px;
+}
+
+
+#infobox {
+	visibility:hidden;
+}
+
+
+#playpausepage {
+	margin-top: 10px;
+}
+
+#log{
+  text-align: center;
+  font-size: 11px;
+  height:100px;
+  overflow:auto;
+}

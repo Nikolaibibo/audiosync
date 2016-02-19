@@ -1,0 +1,28 @@
+{
+  "name": "connected-speaker",
+  "version": "1.0.0",
+  "description": "connects clients via socket.io",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.zootech.ninja/nbockholt/coke_audiosync.git"
+  },
+  "keywords": [
+    "node",
+    "socket",
+    "express"
+  ],
+  "author": "Nikolai Bockholt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket-ntp": "^0.1.0",
+    "socket.io": "^1.4.5"
+  },
+  "engines": {
+    "node": ">=0.12.7"
+  }
+}
